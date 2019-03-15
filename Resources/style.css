@@ -1,0 +1,292 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0d002a;
+    color: #fff;
+    font-family: 'Raleway', serif;
+}
+
+a{
+text-decoration: none;
+}
+a:active,
+a:focus {
+    -moz-outline-style: none;
+}
+
+/* Header */
+
+/* Start of Top Navigation Menu */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+nav li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/* End of Top Navigation Menu */
+
+#logo{
+    background-image: url(logo.png);
+    width: 190px;
+    height: 165px;
+    font-family: 'Raleway', serif;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    float: left;
+    font-weight: 100;
+    font-size: 40pt;
+}
+
+/* Center Form */
+
+#cForm{
+    position: absolute;
+    width: 750px;
+    height: 600px;
+    top: 20%;
+    left: 50%;
+    margin-left: -375px;
+}
+
+#cFormL{
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    top: 20%;
+    left: 50%;
+    margin-left: -350px;
+}
+
+#cForm form{
+    margin-top: 75px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#cForm .input{
+    margin-top: 20px;
+    width:80%;
+}
+
+#cFormL .input{
+    margin-top: 20px;
+    width:80%;
+}
+
+#cFormView{
+    position: absolute;
+    width: 767px;
+    height: 600px;
+    top: 15%;
+    left: 50%;
+    margin-left: -383px;
+}
+
+#btns{
+    padding-top: 100px;
+    width: 50%;
+}
+
+#btns .input{
+    margin-top: 50px;
+}
+
+
+h2{
+    position: absolute;
+    font-weight: 100;
+    font-size: 25pt;
+    right: 50%;
+    font-family: 'Raleway', serif;
+}
+
+input[type=text], input[type=password] select{
+    background-color: #0d002a;
+    width: 100%;
+    height: 35px;
+    padding:5px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding-left: 50px;
+    font-family: 'Raleway', serif;
+    font-size: 15pt;
+    color: #fff;
+    outline-style: none;
+}
+
+input[type=text]:focus, input[type=password]:focus, select:focus{
+    border: 2px solid #cbdc55;
+    outline-style: none;
+}
+
+input[type=submit]{
+    margin-top: 50px;
+    background-color: #0d002a;
+    color: #cbdc55;
+    width: 200px;
+    height: 75px;
+    font-size: 18pt;
+    font-weight: 800;
+    font-family: 'Raleway', serif;
+    border: 2px solid #cbdc55;
+    border-radius: 6px;
+    letter-spacing: .75px;
+    transition: all 400ms;
+    outline-style: none;
+}
+
+input[type=submit]:hover{
+    background-color: #cbdc55;
+    color: #0d002a;
+}
+
+#btnsView .btn{
+    background-color: #0d002a;
+    color: #cbdc55;
+    width: 80px;
+    height: 40px;
+    font-size: 12pt;
+    font-weight: 800;
+    font-family: 'Raleway', serif;
+    border: 2px solid #cbdc55;
+    border-radius: 6px;
+    letter-spacing: .75px;
+    transition: all 400ms;
+    outline-style: none;
+    margin-bottom: 10px;
+}
+
+#btnsView .btn:hover{
+    background-color: #cbdc55;
+    color: #0d002a;
+}
+
+#searchInput{
+    width: 200px;
+    float: right;
+    margin-top: 41px;
+}
+
+
+
+
+/* Table Styling */
+
+#container {
+	max-height: 600px;
+	overflow-y: scroll;
+	outline: 1px solid dimgrey;
+	outline-offset: -1px;
+}
+
+table {
+  width: 750px;
+	border-collapse: collapse;
+}
+
+th, td {
+  font-family: sans-serif;
+	background-color: gainsboro;
+	padding: 1em;
+	border: 1px solid white;
+}
+
+th {
+	text-align: left;
+	color: white;
+	background-color: dimgrey;
+}
+
+tr{
+    color: dimgrey;
+}
+
+.wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.wrap th {
+	white-space: nowrap;
+}
+
+.wrap th:first-child div {
+	border-left: none;
+}
+
+.wrap th div {
+	position: absolute;
+	z-index: 2;
+	font-weight: bold;
+	width: 100%;
+	color: white;
+	background-color: dimgrey;
+	padding: 1rem;
+	border-left: 1px solid white;
+	margin-left: calc(-1rem - 1px);
+}
+
+.wrap thead div {
+	top: 0;
+}
+
+
+
+/* MISC. */
+
+#building{
+    min-width: 90%;
+    color: white;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: #0d002a;
+    font-family: 'Raleway', serif;
+    font-size: 14pt;
+}
+
+.section{
+    margin-top: 20px;
+}
+
+#edit{
+    background-color: transparent;
+    background: url(./media/editBtn.png)  no-repeat;
+    border:none;
+    width:30px;
+    height:30px;
+}
+
+
+/* Footer */
+
+footer{
+    font-family: 'Raleway', serif;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-weight: 100;
+}
