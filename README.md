@@ -23,6 +23,7 @@ In view mode, users can view all the data in the database with up to date entrie
 
 ![alt text](https://raw.githubusercontent.com/ihernandez248/Barcode-Data-Entry/master/Resources/images/view.jpg)
 
+
 ## Instructions
 
 ### Prerequisites
