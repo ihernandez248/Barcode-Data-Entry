@@ -1,4 +1,6 @@
 <?php
+// CHANGE THESE SETTINGS IF DIFFERENT ENVIROMENT!!!!
+//SAMPLE $conn = new PDO("mysql:host={YOUR HOST}:{YOUR PORT};dbname={YOUR DBNAME}", "{YOUR DB USERNAME}", "{YOUR DB PASSSWORD}");
 $conn = new PDO("mysql:host=localhost:3308;dbname=scanApp", "root", "root");
 ?>
 
@@ -34,6 +36,7 @@ $conn = new PDO("mysql:host=localhost:3308;dbname=scanApp", "root", "root");
         <th>Date/Time</th>
         </tr></thead><tbody id='searchTable'>";
 
+// CHANGE "entries" IF DIFFERENT TABLE NAME!!!!
         $sql = "SELECT * FROM entries";
 
         foreach ($conn->query($sql) as $row) {

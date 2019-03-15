@@ -44,13 +44,16 @@
                    $name = $_POST["name"];
 
                    // Establishes Connection
+                   // CHANGE THESE SETTINGS IF DIFFERENT ENVIROMENT!!!!
+                   //SAMPLE $conn = new PDO("mysql:host={YOUR HOST}:{YOUR PORT};dbname={YOUR DBNAME}", "{YOUR DB USERNAME}", "{YOUR DB PASSSWORD}");
                    $conn = new PDO("mysql:host=localhost:3308;dbname=scanApp", "root", "root");
                    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                    $conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
                    $dataReader == false;
 
-                   //Confirms assetTag is unique and executes Query if it is
                    if($dataReader == false){
+                      // CHANGE "entries" IF DIFFERENT TABLE NAME!!!!
+                      // SAMPLE $query = 'INSERT INTO {YOUR TABLE NAME}(user) VALUES(:user)';
                        $query = 'INSERT INTO entries(user) VALUES(:user)';
                        $statement = $conn->prepare($query);
                        $statement->bindValue(':user', $user);
