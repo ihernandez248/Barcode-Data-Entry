@@ -16,3 +16,15 @@ With each entry the database automatically records the date and time the entry w
 Access View Mode by clicking the "View Mode" Button on the main screen.
 
 In view mode, users can view all the data in the database with up to date entries. All in an easy to digest table. The table is organized in chronological order. However, in the case that a user may need to find past entries a user has the ability to search any content in the table. Either by id,user,or date/time.
+
+## Instructions
+
+### Prerequisites
+Webapp is written in PHP. PHP requires to live on a server or local server like MAMP in order to function properly.
+
+The Application has Host: Localhost Port: 3308 DBname: scanApp ,and Table: entries harcoded. Meaning if your setting are any different they must be changed in designated area with view.php and scan.php
+
+### Setup
+1. Create Database named "scanApp" (ie PHPMyAdmin Database)
+2. Import entries.sql file located in resources folder
+3. Visit index.html to use
