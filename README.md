@@ -10,7 +10,7 @@ Then to enter data simply start scanning. The text field is automatically set on
 
 With each entry the database automatically records the date and time the entry was submitted and has an auto-incrementing value called id that serves the purpose of a unique entry id.
 
-![alt text](https://github.com/ihernandez248/Barcode-Data-Entry/Resources/images/scan.jpg)
+![alt text](https://raw.githubusercontent.com/ihernandez248/Barcode-Data-Entry/Resources/images/scan.jpg)
 
       
 
@@ -21,7 +21,7 @@ Access View Mode by clicking the "View Mode" Button on the main screen.
 
 In view mode, users can view all the data in the database with up to date entries. All in an easy to digest table. The table is organized in chronological order. However, in the case that a user may need to find past entries a user has the ability to search any content in the table. Either by id,user,or date/time.
 
-![alt text](https://github.com/ihernandez248/Barcode-Data-Entry/Resources/images/view.jpg)
+![alt text](https://raw.githubusercontent.com/ihernandez248/Barcode-Data-Entry/Resources/images/view.jpg)
 
 ## Instructions
 
